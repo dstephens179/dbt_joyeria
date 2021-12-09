@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: source-data-314320
+    description: 'Incoming, current data is linked in BigQuery as an external table from Google Sheets.'
+    database: source-data-314320
+    schema: joyeria_dataset
+    tables: 
+      - name: gsheet_centro
+      - name: gsheet_segovia
+      - name: gsheet_patria
+      - name: gsheet_pasaje
+      - name: gsheet_vallardo
+      - name: gsheet_va_en_linea
+
+  - name: source-data-314320
+    description: 'The growing, historical data is stored in BigQuery.'
+    database: source-data-314320
+    schema: historical_data
+    tables: 
+      - name: 2015_2020_Centro
+      - name: 2017_2020_Segovia
+      - name: 2015_2020_Patria
+      - name: 2017_2021-09-30_Pasaje
+      - name: 2018_2020_Vallardo
+      - name: 2018_2021-09-30_VA_en_linea
