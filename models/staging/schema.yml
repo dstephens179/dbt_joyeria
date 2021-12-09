@@ -18,9 +18,9 @@ sources:
     database: source-data-314320
     schema: historical_data
     tables: 
-      - name: 2015_2020_Centro
-      - name: 2017_2020_Segovia
-      - name: 2015_2020_Patria
-      - name: 2017_2021-09-30_Pasaje
-      - name: 2018_2020_Vallardo
-      - name: 2018_2021-09-30_VA_en_linea
+      - name: Centro_2015_2021-10-31
+      - name: Segovia_2017_2021-10-31
+      - name: Patria_2015_2021-10-31
+      - name: Pasaje_2017_2021-10-31
+      - name: Vallardo_2018_2021-10-31
+      - name: VA_en_linea_2018_2021-10-31

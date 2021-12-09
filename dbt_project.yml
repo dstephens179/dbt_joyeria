@@ -1,6 +1,8 @@
 name: 'dbt_joyeria'
 version: '1.0.0'
 
+config-version: 2
+
 profile: 'bigquery'
 
 source-paths: ["models"]
