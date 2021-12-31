@@ -9,3 +9,8 @@ UNION ALL
 SELECT *
 FROM {{ ref('historical_data') }}
 WHERE Date is not Null
+
+UNION ALL
+SELECT *
+FROM {{ ref('forecast') }}
+WHERE Date is not Null
