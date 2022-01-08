@@ -28,6 +28,6 @@ sources:
   - name: source-data-314320
     description: 'Forecasted data from R using Holt Winters, imported to BigQuery.'
     database: source-data-314320
-    schema: agency_data_pipeline
+    schema: joyeria_dataset
     tables: 
       - name: forecast
