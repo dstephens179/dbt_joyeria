@@ -1,15 +1,11 @@
-Welcome to your new dbt project!
+Project Goal
+This project pulls data from Google BigQuery where Google Sheets are linked as external tables. External tables are not using any space in BigQuery. The Sheets tables are updated daily automatically from each store. dbt is set up to run daily to automically to update the single, trusted data source.
 
-### Using the starter project
+Historical data and forecasts from R (forecast and sweep packages) are combined with the single data source.  Calculations are not included in dbt project, but externally calculated in RStudio.
 
-Try running the following commands:
-- dbt run
-- dbt test
+Project Use This repo is public only for presentation purposes. Contributions are not preferred. Prerequisites are as follows:
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Text editor (preferably VS Code)
+RStudio
+GCP access
+Thanks! David
