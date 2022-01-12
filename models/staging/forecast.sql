@@ -2,7 +2,7 @@
 
 SELECT 
     CAST(tienda AS STRING) AS tienda,
-    CAST(NULL AS STRING) AS may_men,
+    CAST("Menudeo" AS STRING) AS may_men,
     CAST(index AS DATE) AS date,
     CAST(owner AS STRING) AS owner,
     CAST(NULL AS STRING) AS metal_type,
