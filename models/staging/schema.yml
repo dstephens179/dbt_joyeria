@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: source-data-314320
+  - name: source_current
     description: 'Incoming, current data is linked in BigQuery as an external table from Google Sheets.'
     database: source-data-314320
     schema: joyeria_dataset
@@ -11,9 +11,9 @@ sources:
       - name: gsheet_patria
       - name: gsheet_pasaje
       - name: gsheet_vallardo
-      - name: gsheet_va_en_linea
+      - name: gsheet_va_en_linea    
 
-  - name: source-data-314320
+  - name: source_historical
     description: 'The growing, historical data is stored in BigQuery.'
     database: source-data-314320
     schema: historical_data
@@ -25,7 +25,7 @@ sources:
       - name: Vallardo_2018_2021-11-30
       - name: VA_en_linea_2018_2021-11-30
 
-  - name: source-data-314320
+  - name: source_forecast
     description: 'Forecasted data from R using Holt Winters, imported to BigQuery.'
     database: source-data-314320
     schema: joyeria_dataset
