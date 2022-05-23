@@ -18,12 +18,12 @@ sources:
     database: source-data-314320
     schema: historical_data
     tables: 
-      - name: Centro_2022-02-28
-      - name: Segovia_2022-02-28
-      - name: Patria_2022-02-28
-      - name: Pasaje_2022-02-28
-      - name: Vallardo_2022-02-28
-      - name: VA_en_linea_2022-02-28
+      - name: Centro_2022-04-30
+      - name: Segovia_2022-04-30
+      - name: Patria_2022-04-30
+      - name: Pasaje_2022-04-30
+      - name: Vallardo_2022-04-30
+      - name: VA_en_linea_2022-04-30
 
   - name: source_forecast
     description: 'Forecasted data from R using Holt Winters, imported to BigQuery.'
